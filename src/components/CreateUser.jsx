@@ -154,7 +154,7 @@ function CreateUser({fetchUsers, toggleAddForm }) {
         >
           Cancel
         </button>
-        <button       onClick={handleSubmit} className="px-[4rem] py-3 rounded-full bg-[#1BB0F0] text-white">
+        <button onClick={handleSubmit} className="px-[4rem] py-3 rounded-full bg-[#1BB0F0] text-white">
         {loading ? "Saving..." : "Save"}
         </button>
       </div>

@@ -137,7 +137,7 @@ function App() {
         >
           {/* Search bar - full width */}
           {loading && (
-    <div className="absolute inset-0 bg-black/50 flex justify-center items-center z-50">
+    <div className="absolute inset-0 bg-black/10 flex justify-center items-center z-50">
       <div className="w-16 h-16 border-4 border-t-transparent border-white rounded-full animate-spin"></div>
     </div>
   )}
